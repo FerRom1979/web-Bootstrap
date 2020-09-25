@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOBONITO</title>
+  <!-- bootstrap-CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-nav navbar-expand-md navbar-light bg-dark">
+    <div class="container">
+      <!-- MENU HAMBURGIESA -->
+      <a href="#" class="navbar-brand text-white"><span class="pl-2">TODO BONITO</span></a>
+      <button type="button" class="navbar-toggler bg-primary mr-1" data-toggle="collapse" data-target="#menu_desplegable" aria-controls="menu desplegable" aria-expanded="false" aria-label="menu de navegacion">
+        <span class="navbar-toggler-icon mr-auto"></span>
+      </button>
+
+      <!-- MENU DESPLEGABLE -->
+      <div class="collapse navbar-collapse pl-2" id="menu_desplegable" >
+        <ul class="navbar-nav  ml-auto my-auto  ">
+          <li class="nav-item pr-2 "><a href="#" class="nav-link active text-white">Inicio</a></li> 
+          <li class="nav-item pr-2"><a href="#" class="nav-link active text-white">Productos</a></li>
+          <li class="nav-item pr-2"><a href="#" class="nav-link active text-white">Contactos</a></li>
+          <li class="nav-item pr-2"><a href="#" class="nav-link active text-white">Nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- hero-image -->
+   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="img/portada.webp" alt="ventas-online" class="img-fluid" height="auto">
+      </div>
+    </div>
+  </div>
+  <!-- nosotros -->
+  <section class="inicio py-3 mt-5 text-center my-md-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="text-primary h3">Quienes somos</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloremque voluptatum illum inventore deserunt earum delectus, eum debitis sequi error aut deleniti cum soluta minus ex consectetur est distinctio quasi.</p>
+          <a href="#" class="btn btn-primary btn-md">VerMás</a>
+        </div>
+        <div class="col-12 col-md-6 mt-2">
+          <img src="img/LOGO INSTAGRAM.png" alt="regalos" width="200px" height="auto" class="img-fluid mb-4">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- redes-mobile-first -->
+  <section class="redes d-md-none">
+    <div class="text-center  ">
+      <div class="bg-success p-2  ">
+        <a href="#" class="d-flex text-white text-center"><img src="img/img-whassapps.jpg" alt="whassap" width="25px" class="img-fluid "><p class="my-auto ml-auto">1160300281</p></a>
+      </div>
+      <div class="red bg-danger p-2 ">
+        <a href="#" class="d-flex text-white "><img src="img/Instagram.jpg" alt="instagran" width="25px" class="img-fluid"><p class="my-auto ml-auto ">TodoBonito@instagram.com</p></a>
+      </div>
+    </div>
+  </section>
+  <!-- seccion tarjetas -->
+  <section class="cards">
+    <div class="row mx-1">
+
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card text-center mt-2 p-1">
+          <img src="img/rompecabeza1.jpeg" class="card-img-top " alt="rompecabezas">
+          <div class="card-body">
+            <h5 class="card-title h4 font-weight-bold">Rompecabeza</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed impedit esse neque eum eaque, necessitatibus sequi vero commodi earum dolor reprehenderit aliquid nemo sit est suscipit saepe error perferendis voluptates.</p>
+            <button type="submit" class="btn btn-info" data-toggle="collapse" data-target="#victima">VerMás</button>
+          </div>
+        </div>
+        <!-- info-collapsada -->
+        <div class="collapse" id="victima">    
+          <div class="my-3 p-3 rounded bg-success text-white text-center">
+            <h3>MÁS MODELOS</h3>
+            <div>
+              <img src="img/rompecabeza2.jpeg" alt="otro Rompecabeza" class="img-fluid img-thumbnail">
+            </div>
+            <div>
+              <img src="img/rompecabeza3.jpeg" alt="otro Rompecabeza" class="img-fluid img-thumbnail">
+            </div><div>
+              <img src="img/rompecabeza4.jpeg" alt="otro Rompecabeza" class="img-fluid img-thumbnail">
+            </div>
+            <p class="text-center">
+              <a role="button" href="#victima" class="btn btn-secondary" data-toggle="collapse" aria-expanded="true" aria-controls="#victima">Cerrar</a>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card text-center mt-2 p-1">
+          <img src="img/rompecabeza2.jpeg" class="card-img-top " alt="rompecabezas">
+          <div class="card-body">
+            <h5 class="card-title h4 font-weight-bold">Rompecabeza</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed impedit esse neque eum eaque, necessitatibus sequi vero commodi earum dolor reprehenderit aliquid nemo sit est suscipit saepe error perferendis voluptates.</p>
+            <a href="#" class="btn btn-primary">VerMás</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card text-center mt-2 p-1">
+          <img src="img/rompecabeza3.jpeg" class="card-img-top " alt="rompecabezas">
+          <div class="card-body">
+            <h5 class="card-title h4 font-weight-bold">Rompecabeza</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed impedit esse neque eum eaque, necessitatibus sequi vero commodi earum dolor reprehenderit aliquid nemo sit est suscipit saepe error perferendis voluptates.</p>
+            <a href="#" class="btn btn-primary">VerMás</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <div class="card text-center mt-2 p-1">
+          <img src="img/rompecabeza4.jpeg" class="card-img-top " alt="rompecabezas">
+          <div class="card-body">
+            <h5 class="card-title h4 font-weight-bold">Rompecabeza</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed impedit esse neque eum eaque, necessitatibus sequi vero commodi earum dolor reprehenderit aliquid nemo sit est suscipit saepe error perferendis voluptates.</p>
+            <a href="#" class="btn btn-primary">VerMás</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- seccion envios -->
+  <section class="envios">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-4  d-flex justify-content-between   my-2 ">
+          
+          <p class="h5 font-weight-bold font-italic my-auto mr-2"><i class="fas fa-truck "></i> Envios Gratis</p>
+          <p class="font-italic my-auto">Dentro de loma hermosa por compras superiores a $2000</p>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-between   my-2">
+          
+          <p class="h5 font-weight-bold font-italic  my-auto mr-2"><i class="far fa-credit-card"></i> Paga como Quieras</p>
+          <p class="font-italic my-auto">tarjetas de Credito, Debito o Transferencia</p>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-between   my-2">
+          
+          <p class="h5 font-weight-bold font-italic  my-auto mr-2"><i class="fas fa-map-marker-alt"></i> Donde Estamos</p>
+          <p class="font-italic my-auto">El Gaucho 10251 entre Salguero y San Luis</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
